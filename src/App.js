@@ -2,7 +2,6 @@ import React from 'react';
 import NearbyAirports from './components/NearbyAirports';
 import SearchAirport from './components/SearchAirport';
 import SearchFlights from './components/SearchFlights';
-import FlightDetails from './components/FlightDetails';
 import PriceCalendar from './components/PriceCalendar';
 import MultiStopFlights from './components/MultiStopFlights';
 import SearchEverywhereFlights from './components/SearchEverywhereFlights';  
@@ -21,7 +20,6 @@ function App() {
         <NearbyAirports />
         <SearchAirport />
         <SearchFlights />
-        <FlightDetails flightId="LOND-LAXA-2024-04-11" />
         <PriceCalendar origin="BOM" destination="JFK" />
         <MultiStopFlights />
         <SearchEverywhereFlights /> 
